@@ -1,0 +1,40 @@
+{
+  "name": "MIGO.planLekcji",
+  "short_name": "planLekcji",
+  "description": "Plan lekcji, kalendarz i wydarzenia szkolne — aplikacja MIGO.apps",
+  "start_url": "./migo-plan-lekcji.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F4F1",
+  "theme_color": "#1957D6",
+  "lang": "pl",
+
+  "_comment_icons": "Podmień pliki w folderze icons/ na własne grafiki o DOKŁADNIE tych samych nazwach i wymiarach (kwadratowe PNG, przezroczyste lub wypełnione tło) — reszta manifestu nie wymaga wtedy żadnych zmian. 'purpose: any' to zwykła ikona, 'maskable' to wersja z bezpiecznym marginesem na przycięcie do kółka/zaokrąglonego kwadratu przez system Android.",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
